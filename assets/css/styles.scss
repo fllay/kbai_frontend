@@ -1,0 +1,17 @@
+$primary-color: #007e4e;
+$primary-color-hover: #00643e;
+
+$theme-colors: (
+  "primary": $primary-color
+);
+
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+body
+{
+  font-family: "Poppins", "Sarabun", sans-serif;
+}
+.d-contents{
+  display: contents;
+}
