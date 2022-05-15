@@ -25,7 +25,7 @@
           <img
             v-on:click.prevent
             :class="['op-btn',{ 'op-btn-disable': !cameraReady}]"
-            src="~/assets/images/UI/png/Group 198.png"
+            src="../../assets/images/UI/png/Group 198.png"
             height="96"
             @click="snapAndSave"
           />
