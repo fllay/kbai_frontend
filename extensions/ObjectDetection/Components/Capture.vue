@@ -32,7 +32,7 @@
           <img
             v-b-modal.import-classify-image
             class="op-btn"
-            src="~/assets/images/UI/png/Group 199.png"
+            src="../../assets/images/UI/png/Group 199.png"
             height="96"
           />
         </div>
