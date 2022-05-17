@@ -56,4 +56,7 @@ export default {
     closeOnClick: false,
   },
   build: {},
+  generate: {
+    dir: 'dist'
+  },
 };
