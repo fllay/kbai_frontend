@@ -23,14 +23,14 @@
           <img
             v-on:click.prevent
             :class="['op-btn',{ 'op-btn-disable': !cameraReady}]"
-            src="~/assets/images/ui/png/Group198.png"
+            src="~/assets/images/UI/png/Group198.png"
             height="96"
             @click="snapAndSave"
           />
           <img
             v-b-modal.import-classify-image
             class="op-btn"
-            src="~/assets/images/ui/png/Group199.png"
+            src="~/assets/images/UI/png/Group199.png"
             height="96"
           />
         </div>
