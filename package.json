@@ -10,7 +10,7 @@
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js",
     "lintfix": "npm run lint:js -- --fix",
-    "heroku-postbuild": "nuxt generate",
+    "heroku-postbuild": "nuxt generate"
   },
   "dependencies": {
     "axios": "^0.26.1",
